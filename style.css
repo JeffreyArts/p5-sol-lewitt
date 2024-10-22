@@ -1,0 +1,19 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+  position: absolute;
+  width: 50%;
+  left: 50%;
+  top: 50%;
+  translate: -50% -50%;
+  max-width: 80vw;
+  max-height: 80vh;
+}
+
+body {
+  background-color: #fdfeef;
+}

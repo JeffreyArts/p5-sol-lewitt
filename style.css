@@ -6,11 +6,11 @@ html, body {
 canvas {
   display: block;
   position: absolute;
-  width: 50%;
   left: 50%;
   top: 50%;
   translate: -50% -50%;
-  max-height: 80vh;
+  max-width: 60%;
+  max-height: 60%;
 }
 
 body {
@@ -39,6 +39,10 @@ body {
   display: inline-block;
 }
 
+.artist:after {
+  content: ",";
+}
+  
 .year {
   opacity: 0.8;
 }
